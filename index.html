@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практика JS</title>
+    <script defer src="script.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        button { margin: 5px; padding: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Практика роботи з колекціями та асинхронністю в JavaScript</h1>
+    <div>
+        <h2>Робота з колекціями</h2>
+        <button onclick="testFilterAndSort()">Фільтрація та сортування товарів</button>
+        <button onclick="testFindTopStudent()">Пошук кращого студента</button>
+        <button onclick="testGroupOrders()">Групування замовлень</button>
+        <button onclick="testMergeEmployees()">Об'єднання списків співробітників</button>
+        <button onclick="testFindLongestSequence()">Найдовша послідовність чисел</button>
+    </div>
+    <div>
+        <h2>Множини (Set)</h2>
+        <button onclick="testUniqueIPs()">Аналіз унікальних IP</button>
+        <button onclick="testCommonTags()">Перетин множин</button>
+    </div>
+    <div>
+        <h2>Карта (Map)</h2>
+        <button onclick="testBookIndexing()">Індексація книг</button>
+        <button onclick="testWordFrequency()">Частотний аналіз слів</button>
+    </div>
+    <div>
+        <h2>Робота з JSON</h2>
+        <button onclick="testTodoStorage()">Збереження та фільтрація TODO</button>
+    </div>
+    <div>
+        <h2>Робота з промісами</h2>
+        <button onclick="testFetchAllData()">Очікування всіх запитів</button>
+        <button onclick="testFetchWithTimeout()">Контроль часу запитів</button>
+        <button onclick="testUserDetailsChain()">Ланцюжок асинхронних запитів</button>
+        <button onclick="testRetryFetch()">Повторне виконання запиту</button>
+        <button onclick="testLimitedParallelRequests()">Обмеження паралельних запитів</button>
+        <button onclick="testDelayedRequests()">Запити з паузами</button>
+    </div>
+    <div>
+        <h2>Реальні сценарії</h2>
+        <button onclick="testInfiniteScroll()">Підвантаження даних (Infinite Scroll)</button>
+        <button onclick="testSimulatedServerResponse()">Симуляція відповіді сервера</button>
+    </div>
+</body>
+</html>
